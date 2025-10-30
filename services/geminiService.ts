@@ -56,6 +56,7 @@ export async function startTranscriptionSession(onTranscriptionUpdate: (text: st
       },
     },
     config: {
+      responseModalities: [Modality.AUDIO],
       inputAudioTranscription: {},
     },
   });
